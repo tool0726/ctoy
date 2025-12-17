@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <iostream>
-
 
 char name[50];
 
@@ -12,9 +10,9 @@ int hello(void) {
     return 0;
 }
 
-int main(int argc, char **argv) 
+int main() 
 {
-    std::cout << "Hello, World!" << std::endl;
+    printf("Hello, World!\n");
     hello();
     return 0;
 }

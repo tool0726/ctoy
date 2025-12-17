@@ -1,0 +1,20 @@
+# 編譯輸出
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+
+# src 目錄下的可執行文件（不帶副檔名）
+src/hello
+src/**/[!.]*/
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# 其他常見的構建産物
+build/
+dist/
